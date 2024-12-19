@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+/* class imported :end */
+:root{
+    --primary-color: #033b4a;
+    --secondary-color: #20c997;
+    --gray-color: #4a4a4d;
+    --bg-color: #ecf0f3;
+    --green-color: #33d1cc;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1,
+h2{
+    font-family: "Saira", sans-serif;
+}
+
+
+.btn-primary{
+    background-color: #20c997;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+/* class imported :end */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: #ecf0f3;
+    border-bottom: 3px solid #ccc;
+    z-index: 1;
+}
+
+
+#logo{
+    color: #033b4a;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    margin: 0 11px;
+    color: #033b4a;
+    font-weight: 600;
+    transition: all 04.s ease;
+    cursor: pointer;
+}
+
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--green-color);
+    transform: scale(0.95);
+}
+
+
+.navbar .navbar-toggler{
+    color: #033b4a;
+    font-size: 25px;
+    border-color: #ecf0f3;
+}
+
+
+.landing {
+    background-color: #00f4ab0c;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* توسيط العناصر عموديًا */
+  }
+  .social a i {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #4a4a4d;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  .social a i:hover {
+    transform: scale(0.85);
+  }
+
+
+#mbtn{
+    background-color: #20c997;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+
+#mbtn:hover{
+    transform: scale(0.85);
+}
+
+
+.main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#abo{
+    color: #4a4a4d;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #ddd;
+    padding-bottom: 7px; 
+}
+
+
+#bj-skils{
+    background-color: #123843;
+    /* min-height: 100%; */
+}
+
+
+.main-title1::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #20c997;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+ul li{
+  list-style: none;
+}
+
+
+.progress_bar{
+    padding: 50px 0;
+    
+}
+
+
+.progress_icon{
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+
+.progress_icon:hover{
+  transform: scale(0.85);
+}
+
+
+.progress_bar h3{
+  color: #20c997;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+.progress_bar h3 span{
+  float: right;
+  padding-bottom: 4px;
+}
+
+
+.progress_bar ul li{
+  padding: 10px 30px;
+}
+
+
+.bar{
+  height: 6px;
+  background: #20c997;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+
+.bar span{
+  height: 7px;
+  float: left;
+  border-radius: 5px;
+}
+
+
+.html{
+  background: #33d1cc;
+  width: 95%;
+  animation: html 3s;
+}
+
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+.css{
+  background: #33d1cc;
+  width: 80%;
+  animation: css 3s;
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+
+.boot{
+  background: #33d1cc;
+  width: 80%;
+  animation: boot 3s;
+}
+@keyframes boot{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+
+.js{
+  background: #33d1cc;
+  width: 60%;
+  animation: js 3s;
+}
+@keyframes js{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+
+.reat{
+  background: #33d1cc;
+  width: 60%;
+  animation: reat 3s;
+}
+@keyframes reat{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+
+.flutt{
+  background: #33d1cc;
+  width: 85%;
+  animation: flutt 3s;
+}
+@keyframes flutt{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+
+.fire{
+  background: #33d1cc;
+  width: 85%;
+  animation: fire 3s;
+}
+@keyframes fire{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+
+.gith{
+  background: #33d1cc;
+  width: 95%;
+  animation: gith 3s;
+}
+@keyframes gith{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+
+
+#bj-servic {
+  position: relative;
+  background-image: url('../img/blob-scene-haikei.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+#bj-servic .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+
+#bj-servic > * {
+  position: relative;
+  z-index: 2; 
+}
+
+
+.theme-text {
+  color: #33d1cc;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background: #33d1cc;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+
+
+.contact-form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.contact-form .form-control {
+  background-color: #ccc;
+  font-size: .8rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+
+.contact-form .form-group i{
+  top: 1rem;
+}
+
+
+#footer{
+  background: #222;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+
+.btn-primary12{
+  background-color: #20c997;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.btn-primary12:hover{
+  background-color: #15a076;
+  
+}
